@@ -1,7 +1,7 @@
 import { Pool } from "pg";
 
 export const pool = new Pool({
-  connectionString: process.env.DATABASE_URL || "postgres://postgres:password@db:5432/life_insurance",
+  connectionString: "postgresql://postgres:root@localhost:5432/life_insurance",
 });
 
 export const initDB = async () => {
