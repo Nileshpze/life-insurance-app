@@ -1,0 +1,46 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# dotenv environment files
+.env
+.env.local
+.env.*.local
+
+# Next.js build
+.next/
+out/
+.cache/
+
+# Logs
+logs/
+*.log
+*.csv
+*.tsv
+
+# TypeScript
+*.tsbuildinfo
+
+# VS Code
+.vscode/
+
+# Docker
+**/Dockerfile.*
+**/docker-compose.yml
+docker-compose.override.yml
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# PostgreSQL dump files
+*.sql
+
+# Frontend build
+frontend/.next/
+frontend/out/
+
+# Backend build (if using dist/)
+backend/dist/
